@@ -1,0 +1,241 @@
+ body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+
+        .navbar {
+            background-color: #000;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #4ea1ff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #79c0ff;
+        }
+
+        header {
+            background-color: #161b22;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #58a6ff;
+        }
+
+        .features, .packages {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+
+        .feature, .package {
+            background-color: #21262d;
+            padding: 20px;
+            border-radius: 10px;
+            width: 25%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            color: #79c0ff;
+        }
+
+        h1 {
+            color: #58a6ff;
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #79c0ff;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            color: #58a6ff;
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #79c0ff;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .about-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            text-align: left;
+        }
+
+        .about-text {
+            max-width: 500px;
+        }
+
+        .about-image img {
+            max-width: 300px;
+            border-radius: 12px;
+        }
+
+        .portfolio {
+  padding: 60px 20px;
+  text-align: center;
+}
+.portfolio h2 {
+  color: #58a6ff;
+  margin-bottom: 40px;
+}
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.portfolio-item {
+  background-color: #161b22;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.portfolio-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.portfolio-item h3 {
+  color: #79c0ff;
+}
+
+.contact {
+  padding: 60px 20px;
+  background-color: #21262d;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #58a6ff;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #79c0ff;
+  background-color: #0d1117;
+  padding: 10px 20px;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #58a6ff;
+  color: #0d1117;
+}
+
+.paket {
+  padding: 60px 20px;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  text-align: center;
+}
+
+.paket h2 {
+  color: #58a6ff;
+  margin-bottom: 40px;
+}
+
+.paket-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.paket-box {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  padding: 30px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.paket-box h3 {
+  color: #79c0ff;
+  margin-bottom: 10px;
+}
+
+.paket-box p {
+  margin-bottom: 10px;
+}
+
+.btn-pesan {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #58a6ff;
+  color: #0d1117;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pesan:hover {
+  background-color: #79c0ff;
+}
